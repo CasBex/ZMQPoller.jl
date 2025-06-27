@@ -4,7 +4,7 @@ A [ZeroMQ](https://zeromq.org/) socket poller to that integrates with the Julia 
 
 | **Documentation**                                                         | **Coverage**                    |
 |:-------------------------------------------------------------------------:|:-------------------------------:|
-| [![][docs-stable-img]][docs-stable-url] [![][docs-dev-img]][docs-dev-url] | [![][codecov-img]][codecov-url] |
+| [![][docs-dev-img]][docs-dev-url] | [![][codecov-img]][codecov-url] |
 
 ## Installation
 This package is unregistered and should be installed via the URL.
@@ -25,3 +25,10 @@ For further context refer to the [original discussion](https://github.com/JuliaI
 This package is intended to provide a practical, working solution, not to make a point or reopen past discussions.
 Please do not engage in the original PR thread unless you have new, substantial insights.
 If you encounter issues with this implementation specifically, feel free to open an issue here.
+
+[docs-dev-img]: https://img.shields.io/badge/docs-dev-blue.svg
+[docs-dev-url]: https://casbex.github.io/ZMQPoller.jl/dev
+
+[codecov-img]: https://codecov.io/gh/CasBex/ZMQPoller.jl/graph/badge.svg?token=NMxuhZepAU
+[codecov-url]: https://codecov.io/gh/CasBex/ZMQPoller.jl
+

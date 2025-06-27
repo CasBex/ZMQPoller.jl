@@ -10,7 +10,6 @@ makedocs(
         "API" => "api.md",
     ],
     format = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "true"),
-    remotes = nothing
 )
 
 deploydocs(

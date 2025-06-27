@@ -5,10 +5,10 @@ env:
 on:
   pull_request:
     branches:
-      - master
+      - main
   push:
     branches:
-      - master
+      - main
     tags: '*'
 
 jobs:
@@ -77,8 +77,8 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: doctest
-            using ZMQ
-            doctest(ZMQ)'
+            using ZMQPoller
+            doctest(ZMQPoller)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
