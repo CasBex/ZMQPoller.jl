@@ -7,6 +7,7 @@ A [ZeroMQ](https://zeromq.org/) socket poller to that integrates with the Julia 
 | [![][docs-dev-img]][docs-dev-url] | [![][codecov-img]][codecov-url] |
 
 __This package has been found to sometimes cause segmentation faults. Despite tests working in this repository it is strongly advised against to use this in your work!__
+
 The package will be retained for posteriority.
 The documentation contains an example on how to remove ZMQPoller.jl from your code, while still retaining functionality.
 
