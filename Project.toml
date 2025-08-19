@@ -1,7 +1,7 @@
 name = "ZMQPoller"
 uuid = "4b32e1d1-572c-43b1-a481-e7eed928be34"
 authors = ["Cas Bex <cas.bex@kuleuven.be>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 ZMQ = "c2297ded-f4af-51ae-bb23-16f91089e4e1"

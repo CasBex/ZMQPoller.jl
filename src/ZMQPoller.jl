@@ -2,6 +2,8 @@ module ZMQPoller
 
 using ZMQ
 
+@warn "You have loaded ZMQPoller.jl, which is known to have critical bugs which might crash your program or produce undefined behaviour. Please consider another way of polling ZMQ sockets"
+
 export PollItems, poll
 
 struct ZMQStopPoll <: Exception end
