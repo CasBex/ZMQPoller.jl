@@ -6,6 +6,9 @@ A [ZeroMQ](https://zeromq.org/) socket poller to that integrates with the Julia 
 |:-------------------------------------------------------------------------:|:-------------------------------:|
 | [![][docs-dev-img]][docs-dev-url] | [![][codecov-img]][codecov-url] |
 
+__This package has been found to sometimes cause segmentation faults. Despite tests working in this repository it is strongly inadvisable to use this in your work!__
+The package will be retained for posteriority.
+
 ## Installation
 This package is unregistered and should be installed via the URL.
 This package will not be added to the Julia general registry.
